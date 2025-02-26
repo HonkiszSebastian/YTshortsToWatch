@@ -7,8 +7,6 @@ function replaceShortsUrl() {
 
     history.replaceState(null, "", newUrl);
     window.location.reload();
-
-    // window.location.replace(newUrl); //--> This will cause a redirect loop
   }
 }
 
